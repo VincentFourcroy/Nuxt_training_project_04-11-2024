@@ -44,6 +44,12 @@ const { data: properties } = await useFetch(
     margin: 1rem;
   }
 
+  & .card_content {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
   & .card_title {
     text-align: center;
     background-color: #18122b;
